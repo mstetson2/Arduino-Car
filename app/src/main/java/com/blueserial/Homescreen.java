@@ -61,7 +61,7 @@ public class Homescreen extends Activity {
 	public static final String BUFFER_SIZE = "com.blueserial.buffersize";
 	private static final String TAG = "BlueTest5-Homescreen";
 
-	public static boolean debugMode;
+	public static boolean debugMode = false;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {

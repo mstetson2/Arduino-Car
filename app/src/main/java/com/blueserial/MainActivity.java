@@ -145,6 +145,8 @@ public class MainActivity extends Activity {
         int sendFB;
         int sendLR;
 
+        String sendS;
+
         //PAN IS X
         //TILT is Y
 
@@ -152,6 +154,9 @@ public class MainActivity extends Activity {
         public void OnMoved(int pan, int tilt) {
            // pan = pan*-1;
             tilt = tilt*-1;
+
+            txtX.setText(Integer.toString(pan));
+            txtY.setText(Integer.toString(tilt));
 
             switch(tilt) {
                 case 0:
@@ -192,31 +197,27 @@ public class MainActivity extends Activity {
             }
 
             if(fw) {
-                sendFB = 3;
+                if(lt)
+                    sendS = "FL";
+                else if(rt)
+                    sendS = "FR";
+                else
+                    sendS = "FW";
             }
             else if(bw) {
-                sendFB = 1;
+                if(lt)
+                    sendS = "BL";
+                else if(rt)
+                    sendS = "BR";
+                else
+                    sendS = "BW";
             }
             else {
-                sendFB = 2;
+                sendS = "ST";
             }
-
-            if(lt) {
-                sendLR = 6;
-            }
-            else if(rt) {
-                sendLR = 4;
-            }
-            else {
-                sendLR = 5;
-            }
-
-            txtX.setText(Integer.toString(pan));
-            txtY.setText(Integer.toString(tilt));
 
             try {
-                mBTSocket.getOutputStream().write(Integer.toString(sendFB).getBytes());
-                mBTSocket.getOutputStream().write(Integer.toString(sendLR).getBytes());
+                mBTSocket.getOutputStream().write(sendS.getBytes());
             } catch (IOException e) {
                 // TODO Auto-generated catch block
                 e.printStackTrace();
