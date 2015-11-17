@@ -12,7 +12,6 @@ import java.util.UUID;
 
 import com.blueserial.Joystick.JoystickMovedListener;
 import com.blueserial.Joystick.JoystickView;
-import com.blueserial.R;
 
 import android.app.Activity;
 import android.app.ProgressDialog;
@@ -20,7 +19,6 @@ import android.bluetooth.BluetoothAdapter;
 import android.bluetooth.BluetoothDevice;
 import android.bluetooth.BluetoothSocket;
 import android.content.Intent;
-import android.content.pm.ActivityInfo;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.text.method.ScrollingMovementMethod;
@@ -64,17 +62,11 @@ public class MainActivity extends Activity {
     TextView txtX, txtY;
     JoystickView joystick;
 
-    int prevPan;
-    int prevTilt;
-
-    int sendPan;
-    int sendTilt;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         //setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.rete);
+        setContentView(R.layout.controller);
         ActivityHelper.initialize(this);
 
         Intent intent = getIntent();
@@ -145,25 +137,86 @@ public class MainActivity extends Activity {
 
     private JoystickMovedListener _listener = new JoystickMovedListener() {
 
+        boolean fw;
+        boolean bw;
+        boolean lt;
+        boolean rt;
+
+        int sendFB;
+        int sendLR;
+
+        //PAN IS X
+        //TILT is Y
+
         @Override
         public void OnMoved(int pan, int tilt) {
+           // pan = pan*-1;
+            tilt = tilt*-1;
 
-            if(pan != prevPan) {
-                sendPan = pan;
-                prevPan = pan;
+            switch(tilt) {
+                case 0:
+                    fw = false;
+                    bw = false;
+                    break;
+                case 1:
+                    fw = true;
+                    bw = false;
+                    break;
+                case -1:
+                    fw = false;
+                    bw = true;
+                    break;
+                default:
+                    fw = false;
+                    bw = false;
+                    break;
             }
 
-            if(tilt != prevTilt) {
-                sendTilt = pan + 1;
-                prevPan = pan;
+            switch(pan) {
+                case 0:
+                    lt = false;
+                    bw = false;
+                    break;
+                case 1:
+                    lt = false;
+                    rt = true;
+                    break;
+                case -1:
+                    lt = true;
+                    rt = false;
+                    break;
+                default:
+                    lt = false;
+                    rt = false;
+                    break;
+            }
+
+            if(fw) {
+                sendFB = 3;
+            }
+            else if(bw) {
+                sendFB = 1;
+            }
+            else {
+                sendFB = 2;
+            }
+
+            if(lt) {
+                sendLR = 6;
+            }
+            else if(rt) {
+                sendLR = 4;
+            }
+            else {
+                sendLR = 5;
             }
 
             txtX.setText(Integer.toString(pan));
             txtY.setText(Integer.toString(tilt));
 
             try {
-                mBTSocket.getOutputStream().write(Integer.toString(sendPan).getBytes());
-                mBTSocket.getOutputStream().write(Integer.toString(sendTilt).getBytes());
+                mBTSocket.getOutputStream().write(Integer.toString(sendFB).getBytes());
+                mBTSocket.getOutputStream().write(Integer.toString(sendLR).getBytes());
             } catch (IOException e) {
                 // TODO Auto-generated catch block
                 e.printStackTrace();
@@ -356,7 +409,9 @@ public class MainActivity extends Activity {
             } catch (IOException e) {
                 // Unable to connect to device
                 e.printStackTrace();
-                mConnectSuccessful = false;
+                if(!Homescreen.debugMode) {
+                    mConnectSuccessful = false;
+                }
             }
             return null;
         }

@@ -61,6 +61,8 @@ public class Homescreen extends Activity {
 	public static final String BUFFER_SIZE = "com.blueserial.buffersize";
 	private static final String TAG = "BlueTest5-Homescreen";
 
+	public static boolean debugMode;
+
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -185,6 +187,15 @@ public class Homescreen extends Activity {
 				setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
 			} else if (orientation.equals("Auto")) {
 				setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_FULL_SENSOR);
+			}
+
+			if (prefs.getBoolean("debugMode", true)) {
+				debugMode = true;
+                mBtnConnect.setTextColor(getResources().getColor(R.color.teal));
+			}
+			else {
+				debugMode = false;
+                mBtnConnect.setTextColor(getResources().getColor(R.color.black));
 			}
 			break;
 		default:

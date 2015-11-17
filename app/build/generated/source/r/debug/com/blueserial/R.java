@@ -15,7 +15,9 @@ public final class R {
     public static final class attr {
     }
     public static final class color {
-        public static final int primary_material_light=0x7f080000;
+        public static final int black=0x7f080000;
+        public static final int primary_material_light=0x7f080001;
+        public static final int teal=0x7f080002;
     }
     public static final class dimen {
         public static final int activity_horizontal_margin=0x7f050000;
@@ -28,8 +30,8 @@ public final class R {
         public static final int square=0x7f020003;
     }
     public static final class id {
-        public static final int TextViewX=0x7f0b000e;
-        public static final int TextViewY=0x7f0b000f;
+        public static final int TextViewX=0x7f0b000f;
+        public static final int TextViewY=0x7f0b0010;
         public static final int action_settings=0x7f0b0012;
         public static final int btnClear=0x7f0b000b;
         public static final int btnClearInput=0x7f0b0005;
@@ -40,9 +42,9 @@ public final class R {
         public static final int chkReceiveText=0x7f0b0007;
         public static final int chkScroll=0x7f0b0006;
         public static final int editSend=0x7f0b000a;
-        public static final int joystickView=0x7f0b000d;
-        public static final int linearLayout=0x7f0b0011;
-        public static final int lstContent=0x7f0b0010;
+        public static final int joystickView=0x7f0b000e;
+        public static final int linearLayout=0x7f0b000d;
+        public static final int lstContent=0x7f0b0011;
         public static final int lstDevices=0x7f0b0001;
         public static final int txtListHeading=0x7f0b0000;
         public static final int txtReceive=0x7f0b0009;
@@ -52,9 +54,9 @@ public final class R {
         public static final int activity_helpscreen=0x7f030000;
         public static final int activity_homescreen=0x7f030001;
         public static final int activity_main=0x7f030002;
-        public static final int joystick=0x7f030003;
-        public static final int list_item=0x7f030004;
-        public static final int rete=0x7f030005;
+        public static final int controller=0x7f030003;
+        public static final int joystick=0x7f030004;
+        public static final int list_item=0x7f030005;
     }
     public static final class menu {
         public static final int helpscreen=0x7f0a0000;

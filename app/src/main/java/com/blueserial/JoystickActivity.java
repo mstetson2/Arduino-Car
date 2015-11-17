@@ -5,9 +5,7 @@ import com.blueserial.Joystick.JoystickMovedListener;
 import com.blueserial.Joystick.JoystickView;
 
 import android.app.Activity;
-import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
 import android.widget.TextView;
 
 public class JoystickActivity extends Activity {
@@ -18,7 +16,7 @@ public class JoystickActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.rete);
+        setContentView(R.layout.controller);
         //setContentView(R.layout.joystick);
 
         txtX = (TextView)findViewById(R.id.TextViewX);
