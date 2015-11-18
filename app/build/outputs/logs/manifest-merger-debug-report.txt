@@ -1,73 +1,73 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Matt\Documents\University of Illinois\ECE 110\Final Project\Programs\Android\Car Connection\Arduino-Car\app\src\main\AndroidManifest.xml:2:1-40:12
+ADDED from C:\Documents\University of Illinois\ECE 110\Final Project\Programs\Android\Car Connection\Arduino-Car\app\src\main\AndroidManifest.xml:2:1-40:12
 	package
-		ADDED from C:\Users\Matt\Documents\University of Illinois\ECE 110\Final Project\Programs\Android\Car Connection\Arduino-Car\app\src\main\AndroidManifest.xml:3:5-29
-		INJECTED from C:\Users\Matt\Documents\University of Illinois\ECE 110\Final Project\Programs\Android\Car Connection\Arduino-Car\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Matt\Documents\University of Illinois\ECE 110\Final Project\Programs\Android\Car Connection\Arduino-Car\app\src\main\AndroidManifest.xml
+		ADDED from C:\Documents\University of Illinois\ECE 110\Final Project\Programs\Android\Car Connection\Arduino-Car\app\src\main\AndroidManifest.xml:3:5-29
+		INJECTED from C:\Documents\University of Illinois\ECE 110\Final Project\Programs\Android\Car Connection\Arduino-Car\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Documents\University of Illinois\ECE 110\Final Project\Programs\Android\Car Connection\Arduino-Car\app\src\main\AndroidManifest.xml
 	android:versionName
-		ADDED from C:\Users\Matt\Documents\University of Illinois\ECE 110\Final Project\Programs\Android\Car Connection\Arduino-Car\app\src\main\AndroidManifest.xml:5:5-30
+		ADDED from C:\Documents\University of Illinois\ECE 110\Final Project\Programs\Android\Car Connection\Arduino-Car\app\src\main\AndroidManifest.xml:5:5-30
 	android:versionCode
-		ADDED from C:\Users\Matt\Documents\University of Illinois\ECE 110\Final Project\Programs\Android\Car Connection\Arduino-Car\app\src\main\AndroidManifest.xml:4:5-28
-		INJECTED from C:\Users\Matt\Documents\University of Illinois\ECE 110\Final Project\Programs\Android\Car Connection\Arduino-Car\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Matt\Documents\University of Illinois\ECE 110\Final Project\Programs\Android\Car Connection\Arduino-Car\app\src\main\AndroidManifest.xml
+		ADDED from C:\Documents\University of Illinois\ECE 110\Final Project\Programs\Android\Car Connection\Arduino-Car\app\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from C:\Documents\University of Illinois\ECE 110\Final Project\Programs\Android\Car Connection\Arduino-Car\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Documents\University of Illinois\ECE 110\Final Project\Programs\Android\Car Connection\Arduino-Car\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\Matt\Documents\University of Illinois\ECE 110\Final Project\Programs\Android\Car Connection\Arduino-Car\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Documents\University of Illinois\ECE 110\Final Project\Programs\Android\Car Connection\Arduino-Car\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.BLUETOOTH
-ADDED from C:\Users\Matt\Documents\University of Illinois\ECE 110\Final Project\Programs\Android\Car Connection\Arduino-Car\app\src\main\AndroidManifest.xml:9:5-68
+ADDED from C:\Documents\University of Illinois\ECE 110\Final Project\Programs\Android\Car Connection\Arduino-Car\app\src\main\AndroidManifest.xml:9:5-68
 	android:name
-		ADDED from C:\Users\Matt\Documents\University of Illinois\ECE 110\Final Project\Programs\Android\Car Connection\Arduino-Car\app\src\main\AndroidManifest.xml:9:22-65
+		ADDED from C:\Documents\University of Illinois\ECE 110\Final Project\Programs\Android\Car Connection\Arduino-Car\app\src\main\AndroidManifest.xml:9:22-65
 uses-permission#android.permission.BLUETOOTH_ADMIN
-ADDED from C:\Users\Matt\Documents\University of Illinois\ECE 110\Final Project\Programs\Android\Car Connection\Arduino-Car\app\src\main\AndroidManifest.xml:10:5-74
+ADDED from C:\Documents\University of Illinois\ECE 110\Final Project\Programs\Android\Car Connection\Arduino-Car\app\src\main\AndroidManifest.xml:10:5-74
 	android:name
-		ADDED from C:\Users\Matt\Documents\University of Illinois\ECE 110\Final Project\Programs\Android\Car Connection\Arduino-Car\app\src\main\AndroidManifest.xml:10:22-71
+		ADDED from C:\Documents\University of Illinois\ECE 110\Final Project\Programs\Android\Car Connection\Arduino-Car\app\src\main\AndroidManifest.xml:10:22-71
 application
-ADDED from C:\Users\Matt\Documents\University of Illinois\ECE 110\Final Project\Programs\Android\Car Connection\Arduino-Car\app\src\main\AndroidManifest.xml:12:5-38:19
+ADDED from C:\Documents\University of Illinois\ECE 110\Final Project\Programs\Android\Car Connection\Arduino-Car\app\src\main\AndroidManifest.xml:12:5-38:19
 	android:label
-		ADDED from C:\Users\Matt\Documents\University of Illinois\ECE 110\Final Project\Programs\Android\Car Connection\Arduino-Car\app\src\main\AndroidManifest.xml:14:9-41
+		ADDED from C:\Documents\University of Illinois\ECE 110\Final Project\Programs\Android\Car Connection\Arduino-Car\app\src\main\AndroidManifest.xml:14:9-41
 	android:allowBackup
-		ADDED from C:\Users\Matt\Documents\University of Illinois\ECE 110\Final Project\Programs\Android\Car Connection\Arduino-Car\app\src\main\AndroidManifest.xml:13:9-35
+		ADDED from C:\Documents\University of Illinois\ECE 110\Final Project\Programs\Android\Car Connection\Arduino-Car\app\src\main\AndroidManifest.xml:13:9-35
 	android:theme
-		ADDED from C:\Users\Matt\Documents\University of Illinois\ECE 110\Final Project\Programs\Android\Car Connection\Arduino-Car\app\src\main\AndroidManifest.xml:15:9-44
+		ADDED from C:\Documents\University of Illinois\ECE 110\Final Project\Programs\Android\Car Connection\Arduino-Car\app\src\main\AndroidManifest.xml:15:9-44
 activity#com.blueserial.MainActivity
-ADDED from C:\Users\Matt\Documents\University of Illinois\ECE 110\Final Project\Programs\Android\Car Connection\Arduino-Car\app\src\main\AndroidManifest.xml:16:9-23:20
+ADDED from C:\Documents\University of Illinois\ECE 110\Final Project\Programs\Android\Car Connection\Arduino-Car\app\src\main\AndroidManifest.xml:16:9-23:20
 	android:label
-		ADDED from C:\Users\Matt\Documents\University of Illinois\ECE 110\Final Project\Programs\Android\Car Connection\Arduino-Car\app\src\main\AndroidManifest.xml:18:13-45
+		ADDED from C:\Documents\University of Illinois\ECE 110\Final Project\Programs\Android\Car Connection\Arduino-Car\app\src\main\AndroidManifest.xml:18:13-45
 	android:configChanges
-		ADDED from C:\Users\Matt\Documents\University of Illinois\ECE 110\Final Project\Programs\Android\Car Connection\Arduino-Car\app\src\main\AndroidManifest.xml:19:13-74
+		ADDED from C:\Documents\University of Illinois\ECE 110\Final Project\Programs\Android\Car Connection\Arduino-Car\app\src\main\AndroidManifest.xml:19:13-74
 	android:name
-		ADDED from C:\Users\Matt\Documents\University of Illinois\ECE 110\Final Project\Programs\Android\Car Connection\Arduino-Car\app\src\main\AndroidManifest.xml:17:13-41
+		ADDED from C:\Documents\University of Illinois\ECE 110\Final Project\Programs\Android\Car Connection\Arduino-Car\app\src\main\AndroidManifest.xml:17:13-41
 intent-filter#android.intent.action.MAIN
-ADDED from C:\Users\Matt\Documents\University of Illinois\ECE 110\Final Project\Programs\Android\Car Connection\Arduino-Car\app\src\main\AndroidManifest.xml:20:13-22:29
+ADDED from C:\Documents\University of Illinois\ECE 110\Final Project\Programs\Android\Car Connection\Arduino-Car\app\src\main\AndroidManifest.xml:20:13-22:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Matt\Documents\University of Illinois\ECE 110\Final Project\Programs\Android\Car Connection\Arduino-Car\app\src\main\AndroidManifest.xml:21:17-69
+ADDED from C:\Documents\University of Illinois\ECE 110\Final Project\Programs\Android\Car Connection\Arduino-Car\app\src\main\AndroidManifest.xml:21:17-69
 	android:name
-		ADDED from C:\Users\Matt\Documents\University of Illinois\ECE 110\Final Project\Programs\Android\Car Connection\Arduino-Car\app\src\main\AndroidManifest.xml:21:25-66
+		ADDED from C:\Documents\University of Illinois\ECE 110\Final Project\Programs\Android\Car Connection\Arduino-Car\app\src\main\AndroidManifest.xml:21:25-66
 activity#com.blueserial.Homescreen
-ADDED from C:\Users\Matt\Documents\University of Illinois\ECE 110\Final Project\Programs\Android\Car Connection\Arduino-Car\app\src\main\AndroidManifest.xml:24:9-32:20
+ADDED from C:\Documents\University of Illinois\ECE 110\Final Project\Programs\Android\Car Connection\Arduino-Car\app\src\main\AndroidManifest.xml:24:9-32:20
 	android:label
-		ADDED from C:\Users\Matt\Documents\University of Illinois\ECE 110\Final Project\Programs\Android\Car Connection\Arduino-Car\app\src\main\AndroidManifest.xml:26:13-45
+		ADDED from C:\Documents\University of Illinois\ECE 110\Final Project\Programs\Android\Car Connection\Arduino-Car\app\src\main\AndroidManifest.xml:26:13-45
 	android:name
-		ADDED from C:\Users\Matt\Documents\University of Illinois\ECE 110\Final Project\Programs\Android\Car Connection\Arduino-Car\app\src\main\AndroidManifest.xml:25:13-39
+		ADDED from C:\Documents\University of Illinois\ECE 110\Final Project\Programs\Android\Car Connection\Arduino-Car\app\src\main\AndroidManifest.xml:25:13-39
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from C:\Users\Matt\Documents\University of Illinois\ECE 110\Final Project\Programs\Android\Car Connection\Arduino-Car\app\src\main\AndroidManifest.xml:27:13-31:29
+ADDED from C:\Documents\University of Illinois\ECE 110\Final Project\Programs\Android\Car Connection\Arduino-Car\app\src\main\AndroidManifest.xml:27:13-31:29
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Matt\Documents\University of Illinois\ECE 110\Final Project\Programs\Android\Car Connection\Arduino-Car\app\src\main\AndroidManifest.xml:30:17-77
+ADDED from C:\Documents\University of Illinois\ECE 110\Final Project\Programs\Android\Car Connection\Arduino-Car\app\src\main\AndroidManifest.xml:30:17-77
 	android:name
-		ADDED from C:\Users\Matt\Documents\University of Illinois\ECE 110\Final Project\Programs\Android\Car Connection\Arduino-Car\app\src\main\AndroidManifest.xml:30:27-74
+		ADDED from C:\Documents\University of Illinois\ECE 110\Final Project\Programs\Android\Car Connection\Arduino-Car\app\src\main\AndroidManifest.xml:30:27-74
 activity#com.blueserial.PreferencesActivity
-ADDED from C:\Users\Matt\Documents\University of Illinois\ECE 110\Final Project\Programs\Android\Car Connection\Arduino-Car\app\src\main\AndroidManifest.xml:33:9-57
+ADDED from C:\Documents\University of Illinois\ECE 110\Final Project\Programs\Android\Car Connection\Arduino-Car\app\src\main\AndroidManifest.xml:33:9-57
 	android:name
-		ADDED from C:\Users\Matt\Documents\University of Illinois\ECE 110\Final Project\Programs\Android\Car Connection\Arduino-Car\app\src\main\AndroidManifest.xml:33:19-54
+		ADDED from C:\Documents\University of Illinois\ECE 110\Final Project\Programs\Android\Car Connection\Arduino-Car\app\src\main\AndroidManifest.xml:33:19-54
 activity#com.blueserial.JoystickActivity
-ADDED from C:\Users\Matt\Documents\University of Illinois\ECE 110\Final Project\Programs\Android\Car Connection\Arduino-Car\app\src\main\AndroidManifest.xml:34:9-37:20
+ADDED from C:\Documents\University of Illinois\ECE 110\Final Project\Programs\Android\Car Connection\Arduino-Car\app\src\main\AndroidManifest.xml:34:9-37:20
 	android:name
-		ADDED from C:\Users\Matt\Documents\University of Illinois\ECE 110\Final Project\Programs\Android\Car Connection\Arduino-Car\app\src\main\AndroidManifest.xml:34:19-51
+		ADDED from C:\Documents\University of Illinois\ECE 110\Final Project\Programs\Android\Car Connection\Arduino-Car\app\src\main\AndroidManifest.xml:34:19-51
 uses-sdk
-INJECTED from C:\Users\Matt\Documents\University of Illinois\ECE 110\Final Project\Programs\Android\Car Connection\Arduino-Car\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Documents\University of Illinois\ECE 110\Final Project\Programs\Android\Car Connection\Arduino-Car\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 	android:targetSdkVersion
-		INJECTED from C:\Users\Matt\Documents\University of Illinois\ECE 110\Final Project\Programs\Android\Car Connection\Arduino-Car\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Matt\Documents\University of Illinois\ECE 110\Final Project\Programs\Android\Car Connection\Arduino-Car\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Documents\University of Illinois\ECE 110\Final Project\Programs\Android\Car Connection\Arduino-Car\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Documents\University of Illinois\ECE 110\Final Project\Programs\Android\Car Connection\Arduino-Car\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\Matt\Documents\University of Illinois\ECE 110\Final Project\Programs\Android\Car Connection\Arduino-Car\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Matt\Documents\University of Illinois\ECE 110\Final Project\Programs\Android\Car Connection\Arduino-Car\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Documents\University of Illinois\ECE 110\Final Project\Programs\Android\Car Connection\Arduino-Car\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Documents\University of Illinois\ECE 110\Final Project\Programs\Android\Car Connection\Arduino-Car\app\src\main\AndroidManifest.xml

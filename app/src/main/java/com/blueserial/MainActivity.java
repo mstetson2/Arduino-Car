@@ -197,22 +197,24 @@ public class MainActivity extends Activity {
             }
 
             if(fw) {
-                if(lt)
+                if (lt) {
                     sendS = "FL";
-                else if(rt)
+                } else if (rt) {
                     sendS = "FR";
-                else
+                } else {
                     sendS = "FW";
+                }
             }
-            else if(bw) {
-                if(lt)
+            if (bw) {
+                if (lt) {
                     sendS = "BL";
-                else if(rt)
+                } else if (rt) {
                     sendS = "BR";
-                else
+                } else {
                     sendS = "BW";
+                }
             }
-            else {
+            if (fw == false && bw == false) {
                 sendS = "ST";
             }
 
