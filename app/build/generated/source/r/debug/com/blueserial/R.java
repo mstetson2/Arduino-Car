@@ -30,22 +30,26 @@ public final class R {
         public static final int square=0x7f020003;
     }
     public static final class id {
-        public static final int TextViewX=0x7f0b000f;
-        public static final int TextViewY=0x7f0b0010;
-        public static final int action_settings=0x7f0b0012;
+        public static final int TextViewX=0x7f0b0010;
+        public static final int TextViewY=0x7f0b0011;
+        public static final int action_settings=0x7f0b0016;
+        public static final int btnBackward=0x7f0b0013;
         public static final int btnClear=0x7f0b000b;
         public static final int btnClearInput=0x7f0b0005;
         public static final int btnConnect=0x7f0b0003;
         public static final int btnDisconnect=0x7f0b0004;
+        public static final int btnForward=0x7f0b0012;
         public static final int btnSearch=0x7f0b0002;
         public static final int btnSend=0x7f0b000c;
         public static final int chkReceiveText=0x7f0b0007;
         public static final int chkScroll=0x7f0b0006;
         public static final int editSend=0x7f0b000a;
         public static final int joystickView=0x7f0b000e;
+        public static final int lineText=0x7f0b0014;
         public static final int linearLayout=0x7f0b000d;
-        public static final int lstContent=0x7f0b0011;
+        public static final int lstContent=0x7f0b0015;
         public static final int lstDevices=0x7f0b0001;
+        public static final int tableLayout=0x7f0b000f;
         public static final int txtListHeading=0x7f0b0000;
         public static final int txtReceive=0x7f0b0009;
         public static final int viewScroll=0x7f0b0008;

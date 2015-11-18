@@ -135,6 +135,32 @@ public class MainActivity extends Activity {
 
     }
 
+    public void fwBtn(View view) {
+
+        String sendFW = "FW";
+
+        try {
+            mBTSocket.getOutputStream().write(sendFW.getBytes());
+        } catch (IOException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }
+
+    }
+
+    public void bwBtn(View view) {
+
+        String sendBW = "BW";
+
+        try {
+            mBTSocket.getOutputStream().write(sendBW.getBytes());
+        } catch (IOException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }
+
+    }
+
     private JoystickMovedListener _listener = new JoystickMovedListener() {
 
         boolean fw;
